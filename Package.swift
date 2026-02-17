@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "ScanbotDocumentScannerSDK",
             url: "https://download.scanbot.io/document-scanner-sdk/ios/xcframeworks/scanbot-ios-document-scanner-sdk-xcframework-8.0.3.zip",
-            checksum: "82e6524307c1917177d4cd2cbebbfa7dd7a2aa08691f0b1de1280a540113b553"
+            checksum: "38e466be95b89a6c7a21f12607973bb7e6c7f656ec74132210c4e9bd67a98a3c"
         ),
     ]
 )
