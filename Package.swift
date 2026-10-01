@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ScanbotDocumentScannerSDK",
     platforms: [
-        .iOS(.v13),
+        .iOS("15.0"),
     ],
     products: [
         .library(
@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ScanbotDocumentScannerSDK",
-            url: "https://download.scanbot.io/document-scanner-sdk/ios/xcframeworks/scanbot-ios-document-scanner-sdk-xcframework-9.0.3.zip",
-            checksum: "55371c83d9434a0270413158742f14657039eb3c3b611a9cab025d936443983b"
+            url: "https://download.scanbot.io/document-scanner-sdk/ios/xcframeworks/scanbot-ios-document-scanner-sdk-xcframework-10.0.0.zip",
+            checksum: "bdd2b3a75187d8e85c7b4097fc5a082140547a355e77b03e5c9012658430fe29"
         ),
     ]
 )
